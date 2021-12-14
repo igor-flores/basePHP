@@ -9,7 +9,6 @@ class HomeController
         $render->setTitle('Página Inicial');
         
         $render->show();
-        
     }
 
 }

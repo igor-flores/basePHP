@@ -15,12 +15,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <h5>Funcionalidades</h5>
-                    <div class="list-group">
-                        <a href="<?= _PATH ?>" class="list-group-item list-group-item-action">Página Inicial</a>
-                        <a href="<?= _PATH ?>SQL/" class="list-group-item list-group-item-action">SQL</a>
-                        <a href="<?= _PATH ?>render/" class="list-group-item list-group-item-action">Render</a>
-                        <a href="<?= _PATH ?>formBuilder/" class="list-group-item list-group-item-action">FormBuilder</a>
-                    </div>
+                    <?= $this->listControllers ?>
                 </div>
                 <div class="col-md-8 col-sm-12">
                     <?php 
